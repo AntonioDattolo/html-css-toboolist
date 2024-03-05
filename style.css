@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic regular', 'Arial Narrow', Arial, sans-serif
 }
+
 body {
     background-color: white;
 }
@@ -20,6 +21,7 @@ body {
 }
  nav, main {
     margin:5% 28% 0 28%;
+    font-size: 18px;
     
  }
 .text{
@@ -40,8 +42,7 @@ body {
     border-radius: 10px;
     display: inline-block;
     height: 40px;
-    width: 125px;
-    font-size: 18px;
+    width: 125px;   
     text-align: center;
     line-height: 39px;
     color: white;
@@ -58,6 +59,27 @@ body {
     background-color:white;
     border: 1px solid lightgray;
     color: lightgray;
+}
 
+dl { 
+    font-size: 35px;
+    margin: 2%;  
+}
+dd {
+    font-size: 31px;
+    margin-left: 1%;
+}
 
+.info {
+    background-color: rgb(62, 16, 244);
+    border: 10px solid rgb(62, 16, 244);    
+    display: inline-block;
+    height: auto;
+    width: auto;   
+    text-align: center;
+    line-height: auto;
+    color: white;
+    border-radius: 22px;
+    font-size: 17px;
+    margin-left: 1%;
 }
